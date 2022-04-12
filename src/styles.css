@@ -13,8 +13,8 @@ app-footer, app-header{
 	text-align: center;
 }
 
-table{
-	align-self: center;
+::ng-deep mat-tab-header {
+	align-self:  center;
 }
 
 
