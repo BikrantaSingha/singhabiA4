@@ -1,0 +1,18 @@
+
+/* Be sure you have run the ng add @angular/material from the command line */
+
+/* --------------- Adding all Angular modules ------------------------------ */
+/* In app/modules folder create a folder called material-ui 
+   Copy the material-ui.module.ts file into this folder */
+
+
+
+/* In app.module.ts */
+
+import {ReactiveFormsModule} from '@angular/forms'; 
+import {MaterialModule} from './modules/material-ui/material-ui.module';
+
+/* in imports: */
+	ReactiveFormsModule, 
+	MaterialModule
+/* ------------------------------------------------------------------------- */

@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+import { ReactiveFormsModule } from '@angular/forms';
+import { MaterialModule } from './AngularMaterial/material-ui.module';
+
 @NgModule({
   declarations: [
     AppComponent
