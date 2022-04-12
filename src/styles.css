@@ -1,11 +1,20 @@
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
 body, html{
 	margin: 0;
 	padding: 0;
 	background-color: lightcyan;
+	font-family:  Arial, sans-serif;
 }
 
 app-footer, app-header{
 	color: black;
 	font-style: italic;
 	text-align: center;
-}/* You can add global styles to this file, and also import other style files */
+}
+
+table{
+	align-self: center;
+}
+
+

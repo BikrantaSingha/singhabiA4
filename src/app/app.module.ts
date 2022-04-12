@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MatTabsModule } from '@angular/material/tabs';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 
@@ -21,7 +23,9 @@ import { PlanetsDistanceComponent } from './planets-distance/planets-distance.co
     PlanetsDistanceComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatTabsModule,
+    BrowserAnimationsModule,
   ],
   providers: [DetailsService],
   bootstrap: [AppComponent]
