@@ -1,6 +1,11 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	background-color: lightcyan;
+}
+
 app-footer, app-header{
 	color: black;
-	background-color: lightcyan;
 	font-style: italic;
 	text-align: center;
 }/* You can add global styles to this file, and also import other style files */

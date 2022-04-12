@@ -1,1 +1,18 @@
-<p>planets-details works!</p>
+
+<table cellspacing="0">
+	<caption>Planets by Details</caption>
+	<thead>
+		<th>Name</th>
+		<th>Color</th>
+		<th>Radius in KM</th>
+		<th>Image</th>
+	</thead>
+	<tbody>
+		<tr *ngFor="let data of this.inputFromRoot.planets">
+			<td [ngStyle]="{'background-color': '#03bb85'}">{{ data.planetName }}</td>
+			<td [ngStyle]="{'background-color': 'darkcyan'}">{{ data.planetColor }}</td>
+			<td [ngStyle]="{'background-color': '#03bb85'}">{{ data.planetRadiusKM }}</td>
+			<td [ngStyle]="{'background-color': 'darkcyan'}"><img src='{{"assets/images/" +  data.image }}' [alt]="data.planetName" /></td>
+		</tr>
+	</tbody>
+</table>
