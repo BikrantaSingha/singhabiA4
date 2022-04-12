@@ -7,7 +7,7 @@
 		<th>from Earth</th>
 	</thead>
 	<tbody>
-		<tr *ngFor="let data of inputFromRoot.planets">
+		<tr *ngFor="let data of sortedPlanetsArray">
 			<td [ngStyle]="{'background-color': '#03bb85'}">{{ data.planetRadiusKM }} KM</td>
 			<td [ngStyle]="{'background-color': 'darkcyan'}">{{ data.planetName }}</td>
 			<td [ngStyle]="{'background-color': '#03bb85'}">{{ data.distInMillionsKM.fromSun }} Mil. KM</td>
