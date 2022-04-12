@@ -9,12 +9,16 @@ import { MaterialModule } from './AngularMaterial/material-ui.module';
 import { DetailsService } from './details.service';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { PlanetsDetailsComponent } from './planets-details/planets-details.component';
+import { PlanetsDistanceComponent } from './planets-distance/planets-distance.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    PlanetsDetailsComponent,
+    PlanetsDistanceComponent
   ],
   imports: [
     BrowserModule
